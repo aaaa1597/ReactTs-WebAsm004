@@ -1,5 +1,6 @@
 # ReactTs-WebAsm004
-React+TypeScriptでWebAssembly004。(wasmなjsモジュールを実行してみた)
+React+TypeScriptでWebAssembly004。(Emscripten製jsモジュールを実行してみた)
 
-この対応が必要。
-https://qiita.com/shunichfukui/items/fdba30276cc0381e0bf1#comment-6f3fb2facf65ddde42d3
+![](https://storage.googleapis.com/zenn-user-upload/aeac661946d9-20240123.png)
+
+解説ページ : [React+TypeScriptでWebAssembly004。(Emscripten製jsモジュールを実行してみた)](https://zenn.dev/rg687076/articles/96d452e86c5c55)
