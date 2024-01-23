@@ -31,6 +31,20 @@ module.exports = {
         "@typescript-eslint",
         "react"
     ],
+	"globals": {
+		"read": false,
+		"readbuffer": false,
+		"scriptArgs": false,
+		"arguments": false,
+		"quit": false,
+		"printErr": false,
+	},
     "rules": {
+        "@typescript-eslint/no-var-requires": "off",
+        "@typescript-eslint/no-empty-function": "off",
+        "no-global-assign": "off",
+        "no-constant-condition": ["error", { "checkLoops": false }],
+        "getter-return": "off",
+        "no-fallthrough": "off",
     }
 }
